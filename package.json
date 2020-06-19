@@ -1,8 +1,8 @@
 {
-  "name": "LiveServer",
-  "displayName": "Live Server",
+  "name": "LiveServer-cye",
+  "displayName": "Live Server cye",
   "description": "Launch a development local Server with live reload feature for static & dynamic pages",
-  "version": "5.6.1",
+  "version": "6.0.0",
   "publisher": "ritwickdey",
   "author": {
     "name": "Ritwick Dey",
@@ -10,7 +10,7 @@
     "url": "http://twitter.com/Dey_Ritwick"
   },
   "engines": {
-    "vscode": "^1.20.0"
+    "vscode": "^1.31.0"
   },
   "categories": [
     "Other"
@@ -332,12 +332,12 @@
   },
   "devDependencies": {
     "@types/mocha": "^2.2.48",
-    "@types/node": "^9.6.40",
+    "@types/node": "^9.6.56",
     "husky": "^1.2.1",
     "mocha": "^5.0.4",
     "tslint": "^5.11.0",
-    "typescript": "^2.7.2",
-    "vscode": "^1.1.26",
+    "typescript": "^3.9.4",
+    "vscode": "^1.1.37",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.0"
   },
@@ -345,7 +345,6 @@
     "http-shutdown": "^1.2.0",
     "ips": "^2.1.3",
     "live-server": "file:lib\\live-server",
-    "opn": "^5.4.0",
     "vsls": "^0.3.967"
   },
   "announcement": {
